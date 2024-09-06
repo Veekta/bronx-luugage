@@ -1,0 +1,109 @@
+.hero_img {
+  height: 500px;
+  object-fit: cover;
+  width: 110%;
+}
+
+body {
+}
+
+.hero {
+  margin-bottom: 100px;
+}
+
+.professional {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.professional_text {
+  background-color: #222d2e;
+  height: 550px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.professional_a {
+  height: 550px;
+}
+
+.intro {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.bag_img {
+  width: 90%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.bag_div {
+  height: 300px;
+}
+
+.pro_section {
+  margin-bottom: 100px;
+}
+
+.back_packs {
+  height: 650px;
+  /* background-color: orange; */
+  margin-bottom: 100px;
+  background-image: url("./Rectangle_13_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-position: center;
+}
+
+.back_packs h3 {
+  font-size: 40px;
+  line-height: 55px;
+}
+
+.back_packs button {
+  height: 45px;
+  width: 130px;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px;
+  border-radius: 3px;
+  transition: 0.4s;
+}
+
+.back_packs button:hover {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  height: fit-content;
+  background-color: #1a2323;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.footer_list {
+  list-style: none;
+}
+
+.footer_list li {
+  line-height: 30px;
+}
+
+.footer_companies {
+  height: 40px;
+  width: 40px;
+}
